@@ -9,6 +9,7 @@ import java.util.Scanner;
 public class HiFour {
 	public static void main(String[] args) {
 		Scanner in = new Scanner(System.in);
+		System.out.println("Please enter four names one after another.");
 		System.out.print("Enter value for arg 0: ");
 		String s0 = in.nextLine();
 		System.out.print("Enter value for arg 1: ");
@@ -18,7 +19,7 @@ public class HiFour {
 		System.out.print("Enter value for arg 3: ");
 		String s3 = in.nextLine();
 		//
-		// Say hello to the names in s0 through s3.
+		System.out.println("Greetings " + s0 + ", " + s1 + ", " + s2 + ", and " + s3);
 		//
 
 	}

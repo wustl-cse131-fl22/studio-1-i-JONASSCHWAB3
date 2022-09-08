@@ -14,7 +14,7 @@ public class HiOne {
 		String name = in.nextLine();
 		//
 		// Below this line, enter code so that this program's output says
-		//      Hi, Pat.  How are you?
+		System.out.println("Hi " + name + ". how are you doing?");
 		// if the value of name is "Pat"
 		//
 
